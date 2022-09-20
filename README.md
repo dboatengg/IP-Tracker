@@ -32,10 +32,9 @@ To generate the map, I'll use:
 
 - [LeafletJS](https://leafletjs.com://leafletjs.com/).
 
-In this projects, users should be able to:
+In this projects, users are be able to:
 
 - View the optimal layout for each page depending on their device's screen size
-- See hover states for all interactive elements on the page
 - See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
@@ -111,10 +110,9 @@ This is where I'll give a hat tip to anyone who helped me out on this project.
 <!-- Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
 
 ## Deployment
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a9e6156c-ca5a-4006-9ad2-5bc037bac7ff/deploy-status)](https://app.netlify.com/sites/moonlit-banoffee-ced34a/deploys)
 
 ## License
 
 This project is open source and available under the MIT License.
-
-

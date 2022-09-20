@@ -11,7 +11,9 @@ html {
 /* #top {
   background-image: url("/images/pattern-bg.png");
 } */
-
+#location-bar {
+  z-index: 99999;
+}
 @media screen and (max-width: 500px) {
   #search-bar {
     width: 90%;

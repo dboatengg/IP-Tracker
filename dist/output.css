@@ -571,6 +571,10 @@ video {
   height: 250px;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -599,12 +603,16 @@ video {
   justify-content: center;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-tl-sm {
+  border-top-left-radius: 0.125rem;
+}
+
+.rounded-bl-sm {
+  border-bottom-left-radius: 0.125rem;
 }
 
 .rounded-tr-md {
@@ -613,6 +621,10 @@ video {
 
 .rounded-br-md {
   border-bottom-right-radius: 0.375rem;
+}
+
+.border-0 {
+  border-width: 0px;
 }
 
 .bg-VeryDarkGray {
@@ -690,6 +702,11 @@ video {
   text-transform: uppercase;
 }
 
+.text-VeryDarkGray {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 17% / var(--tw-text-opacity));
+}
+
 .text-whiteColor {
   --tw-text-opacity: 1;
   color: hsl(100 1000% 100% / var(--tw-text-opacity));
@@ -721,6 +738,10 @@ html {
   background-image: url("/images/pattern-bg.png");
 } */
 
+#location-bar {
+  z-index: 99999;
+}
+
 @media screen and (max-width: 500px) {
   #search-bar {
     width: 90%;
@@ -736,6 +757,14 @@ html {
 
 .placeholder\:text-\[16px\]::placeholder {
   font-size: 16px;
+}
+
+.placeholder\:italic::-moz-placeholder {
+  font-style: italic;
+}
+
+.placeholder\:italic::placeholder {
+  font-style: italic;
 }
 
 .focus\:text-VeryDarkGray:focus {
