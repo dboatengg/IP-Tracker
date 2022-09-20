@@ -13,12 +13,9 @@ html {
 } */
 
 @media screen and (max-width: 500px) {
-  #location-bar {
-    width: 80%;
+  #search-bar {
+    width: 90%;
   }
 }
-@media screen and (max-width: 768px) {
-  #search {
-    width: 80%;
-  }
-}
+/* @media screen and (max-width: 640px) {
+} */

@@ -20,18 +20,18 @@
   <body>
     <div
       id="top"
-      class="h-[40vh] w-[100%] flex flex-col items-center justify-center relative bg-top-pattern bg-no-repeat bg-cover"
+      class="h-[250px] w-[100%] flex flex-col items-center justify-center relative bg-top-pattern bg-no-repeat bg-cover"
     >
       <h1 id="title" class="text-whiteColor font-medium text-[20px]">
         IP Address Tracker
       </h1>
-      <div id="search-bar" class="flex flex-wrap items-center justify-center">
+      <div id="search-bar" class="flex items-center justify-center">
         <input
           type="text"
           name="search"
           id="search"
           placeholder="Search for any IP address or domain"
-          class="w-[400px] py-[8px] px-[15px] placeholder:text-[16px] focus:text-VeryDarkGray rounded-sm outline-none"
+          class="w-[100%] max-w-[400px] py-[8px] px-[15px] placeholder:text-[16px] focus:text-VeryDarkGray rounded-sm outline-none sm:w-[400px]"
         />
         <button
           id="search-button"
@@ -42,7 +42,7 @@
       </div>
       <div
         id="location-bar"
-        class="bg-whiteColor flex items-center flex-col w-[50%] max-w-[1000px] p-0 rounded-md absolute top-[180px] md:top-[180px] shadow-md shadow-indigo-500/50 md:flex-row md:p-6 sm:w-[80%]"
+        class="bg-whiteColor flex items-center flex-col max-w-[1000px] p-0 rounded-md w-[80%] absolute top-[180px] md:top-[180px] shadow-md shadow-indigo-500/50 md:flex-row md:p-6"
       >
         <div
           class="text-center md:border-r-2 md:border-borderColor px-5 py-2 md:w-[25%]"
@@ -70,5 +70,6 @@
         </div>
       </div>
     </div>
+    <main id="map"></main>
   </body>
 </html>
