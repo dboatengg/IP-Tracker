@@ -16,6 +16,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 - [Deployment](#deployment)
+- [Kindly note](#note)
 - [License](#license)
 
 ## Overview
@@ -112,6 +113,11 @@ This is where I'll give a hat tip to anyone who helped me out on this project.
 
 ## Deployment
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a9e6156c-ca5a-4006-9ad2-5bc037bac7ff/deploy-status)](https://app.netlify.com/sites/moonlit-banoffee-ced34a/deploys)
+
+## Note
+
+This project is currently in progress.
+
 
 ## License
 
