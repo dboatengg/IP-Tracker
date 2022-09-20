@@ -15,6 +15,7 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Overview
@@ -109,6 +110,11 @@ This is where I'll give a hat tip to anyone who helped me out on this project.
 
 <!-- Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
 
+## Deployment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/80b0ba4d-5b77-4188-a6ab-80bfe69f4512/deploy-status)](https://app.netlify.com/sites/ip-trackerx/deploys)
+
 ## License
 
 This project is open source and available under the MIT License.
+
+
