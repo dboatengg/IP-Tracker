@@ -115,6 +115,6 @@ This is where I'll give a hat tip to anyone who helped me out on this project.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is open source and available under the [MIT License](LICENSE.md).
 
 
