@@ -108,3 +108,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 This is where I'll give a hat tip to anyone who helped me out on this project.
 
 <!-- Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit. -->
+
+## License
+
+This project is open source and available under the MIT License.
